@@ -68,12 +68,17 @@ input[type="file"] {
   border-radius: 5px;
   padding: 8px 12px;
 }
-.custom-file-upload {
-  border: 2px solid red;
-  font-weight: bolder;
-  font-size: small;
-  display: inline-block;
-  border-radius: 5px;
-  padding: 0px 2px;
+.custom-file-upload,
+.custom-file-upload img {
   cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.header__search__inputs {
+  display: flex;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
 }
