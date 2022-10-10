@@ -17,7 +17,7 @@ header {
 }
 .menu__top {
   width: 100%;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgb(211, 211, 211, 0.4);
   text-align: end;
   padding: 8px 4px;
 }
@@ -29,5 +29,51 @@ header {
 }
 
 .menu__top :not(:last-child) {
-  border-right: 1px solid lightgray;
+  border-right: 1px solid rgb(211, 211, 211, 0.4);
+}
+
+.logo {
+  width: 130px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8px;
+  border-bottom: 1px solid rgb(211, 211, 211, 0.4);
+}
+nav span {
+  cursor: pointer;
+}
+.font--bold {
+  font-weight: 700;
+}
+.nav__inputs {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+input[type="file"] {
+  display: none;
+}
+
+.nav__insert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 0, 0, 0.1);
+  color: red;
+  width: 190px;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+.custom-file-upload {
+  border: 2px solid red;
+  font-weight: bolder;
+  font-size: small;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0px 2px;
+  cursor: pointer;
 }
