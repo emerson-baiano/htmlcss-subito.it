@@ -12,7 +12,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 70vw;
+  width: 980px;
   margin: 0 auto;
 }
 .menu__top {
@@ -33,7 +33,7 @@ header {
 }
 
 .logo {
-  width: 130px;
+  width: 230px;
 }
 
 nav {
@@ -63,7 +63,7 @@ input[type="file"] {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 0, 0, 0.1);
-  color: red;
+  color: #f9423a;
   width: 190px;
   border-radius: 5px;
   padding: 8px 12px;
@@ -77,8 +77,33 @@ input[type="file"] {
 
 .header__search__inputs {
   display: flex;
+  box-shadow: 0 10px 24px 0 #0000001a;
+  padding: 20px;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 60px;
 }
 .input-container {
   display: flex;
   flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#search-input {
+  padding: 12px;
+  border: 1px solid #dfe3ed;
+  width: 260px;
+  border-radius: 4px;
+  height: 48px;
+}
+.searchBtn {
+  background-color: #f9423a;
+  border: none;
+  border-radius: 4px;
+  width: 64px;
+  height: 48px;
 }
