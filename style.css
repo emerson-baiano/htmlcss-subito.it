@@ -113,6 +113,9 @@ main {
   margin-top: 45px;
 }
 
+main h2 {
+  color: rgb(102, 101, 101);
+}
 .cards__container {
   display: flex;
   justify-content: space-between;
@@ -155,4 +158,115 @@ main {
 
 .bg--green {
   background-color: #07bb9c;
+}
+.info__section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.info__top,
+.info__bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.info__section--text {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.info__section--text a {
+  text-decoration: none;
+  color: #f9423a;
+}
+.info__section--text p {
+  color: rgb(102, 101, 101);
+}
+.info__section--text h5 {
+  color: #f9423a;
+}
+.info__bottom img {
+  width: 540px;
+  height: auto;
+}
+.pay__cards__container {
+  display: flex;
+  gap: 15px;
+  padding: 12px;
+}
+
+.pay__card {
+  width: 300px;
+  height: 216px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px 24px;
+}
+.pay__card a {
+  text-decoration: none;
+  height: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9423a;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.pay__img {
+  background-image: url(./img/pay.webp);
+}
+.sell__img {
+  background-image: url(./img/sell.webp);
+}
+
+.bottom__container {
+  background-color: #f7f8fb;
+  width: 100%;
+  text-align: start;
+  padding: 20px;
+}
+.card__bottom__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.card__bottom {
+  height: 250px;
+  padding: 0 16px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card__bottom img {
+  width: 265px;
+  height: 150px;
+}
+.app_container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.btn__links__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+section {
+  margin-bottom: 20px;
 }
